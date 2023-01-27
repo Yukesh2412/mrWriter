@@ -3,6 +3,11 @@ html,
 body {
   margin: 0px;
 }
+.op-custom{
+  position: absolute;
+  right: 0px;
+  top: 1050px;
+}
 body {
   --background-primary: #fff;
   --font-color-primary: #333;
@@ -16,8 +21,8 @@ body {
   --field-borders: #e0e0e0;
   --primary-button-bg: #1d1d1d;
   --primary-button-color: #eee;
-  --font-color-delete: #dc3545;
-  --delete-button-borders: #dc3545;
+  --font-color-delete: #000;
+  --delete-button-borders: #000;
 
   width: 100%;
   overflow-x: hidden;
@@ -31,8 +36,8 @@ body.dark {
   --field-borders: #222;
   --primary-button-bg: #eee;
   --primary-button-color: #111;
-  --delete-button-borders: #e76f7b;
-  --font-color-delete: #e76f7b;
+  --delete-button-borders: #000;
+  --font-color-delete: #000;
 }
 @font-face {
   font-family: 'Hindi_Font';
@@ -182,7 +187,12 @@ body.dark .github-corner {
   background-color: var(--elevation-background);
 }
 .customization-col {
-  padding: 0px 50px !important;
+  /* padding: 0px 50px !important; */
+  /* pointer-events: none; */
+  visibility: hidden;
+  height:0px;
+  width: 0px;
+  overflow: hidden;
 }
 
 .left-margin-and-content {
