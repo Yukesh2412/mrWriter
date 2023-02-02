@@ -5,8 +5,8 @@ body {
 }
 .op-custom{
   position: absolute;
-  right: 0px;
-  top: 1050px;
+  /*right: 0px;
+  top: 1000; */
 }
 body {
   --background-primary: #fff;
@@ -158,7 +158,8 @@ ul.info-ul > li {
   padding-bottom: 7px;
 }
 
-/* Other Styles */
+/* Ot
+r Styles */
 .generate-image-section {
   padding: 10px 10px;
   font-size: 1.2rem;

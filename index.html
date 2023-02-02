@@ -6,7 +6,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-125454191-4"
     ></script>
-    <script>
+    <!-- <script>
       window.dataLayer = window.dataLayer || [];
 
       function gtag() {
@@ -15,7 +15,7 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-125454191-4');
-    </script>
+    </script> -->
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,30 +23,12 @@
     <!-- Basic -->
     <meta charset="UTF-8" />
     <meta name="theme-color" content="#09f" />
-    <meta
-      name="description"
-      content="I hate writing assignments so I made this tool that converts text to an image that looks like handwriting. You can copy paste text content into the textbox and click generate image button to generate image. Text to Handwriting"
-    />
-    <meta
-      name="keywords"
-      content="text to handwriting, text-to-handwrting, saurabh text to handwriting, convert text to image, write assignment online"
-    />
+   
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="author" content="Saurabh Daware" />
-    <meta name="copyright" content="Saurabh Daware" />
-    <meta name="robots" content="follow" />
+    
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Text to Handwriting" />
-    <meta
-      property="og:url"
-      content="https://saurabhdaware.github.io/text-to-handwriting"
-    />
-    <meta
-      property="og:description"
-      content="I hate writing assignments so I made this tool that converts text to an image that looks like handwriting. You can copy paste text content into the textbox and click generate image button to generate image. Text to Handwriting"
-    />
-    <meta property="og:site_name" content="Text to Handwriting" />
-
+  
+  
     <meta
       property="og:image:secure_url"
       itemprop="image"
@@ -60,10 +42,9 @@
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="337" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@saurabhcodes" />
+  
 
-    <title>Text to Handwriting</title>
+    <title>Mr Writer</title>
 
     <!-- Favicons -->
     <link
@@ -99,8 +80,8 @@
   </head>
 
   <body>
-    <main>
-      <button
+    <main  style="margin-top: -100px;">
+      <button  style="margin-top: -100px;"
         aria-label="Activate Dark Mode"
         title="Toggle Dark Mode"
         aria-pressed="false"
@@ -120,9 +101,8 @@
             src="images/moon.svg"
         /></span>
       </button>
-      <h1>Text to Handwriting</h1>
+      <h1>Mr Writer</h1>
       <section class="generate-image-section">
-        <br /><br />
         <form id="generate-image-form">
           <!-- Generate Image Section -->
           <div class="display-flex output-grid responsive-flex">
@@ -131,6 +111,7 @@
                 <h2 style="margin-top: 0px;">Input</h2>
                 <label class="block" for="note">Type/Paste text here</label>
               </div>
+
 
               <div class="flex-1 page-container">
                 <div class="page-a margined lines">
@@ -395,7 +376,7 @@
         <div class="op-custom">
           <h2 id="output-header">Output</h2>
           <div id="output" class="output" style="text-align: center;">
-            Click "Generate Image" Button to generate new image.
+            Click above Button to generate image.
           </div>
           <div style="text-align: center; padding: 30px;">
             <button class="imp-button" id="download-as-pdf-button">
@@ -479,7 +460,7 @@
       </div>
     </section>
     <!-- GitHub Corner logo -->
-    <a
+    <!-- <a
       tabindex="0"
       href="https://github.com/saurabhdaware/text-to-handwriting"
       rel="noopener noreferrer"
@@ -514,7 +495,7 @@
           class="octo-body"
         ></path>
       </svg>
-    </a>
+    </a> -->
 
     <script
       src="./js/vendors/html2canvas.min.js"
