@@ -7,4 +7,14 @@
       "61:37:56:C7:10:E6:51:7E:E0:FF:7B:0D:55:7A:85:8B:6C:FC:07:35:C2:6C:EF:36:A0:CA:FC:CB:D7:86:CF:11"
     ]
   }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.codebrew.mrwriter",
+    "sha256_cert_fingerprints": [
+      "61:37:56:C7:10:E6:51:7E:E0:FF:7B:0D:55:7A:85:8B:6C:FC:07:35:C2:6C:EF:36:A0:CA:FC:CB:D7:86:CF:11"
+    ]
+  }
 }]
