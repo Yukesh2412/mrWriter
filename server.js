@@ -8,7 +8,7 @@ function app() {
     console.log("NODE CRON - fambuddy");
   });
 
-  cron.schedule("*/10 * * * *", () => {
+  cron.schedule("*/1 * * * *", () => {
     client.ping();
   });
 }
